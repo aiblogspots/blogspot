@@ -1,0 +1,17 @@
+{
+  "short_name": "BlogAI",
+  "name": "BlogAI Generator",
+  "description": "An application that generates a comprehensive blog post based on a user-uploaded image or topic.",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "type": "image/svg+xml",
+      "sizes": "any"
+    }
+  ],
+  "start_url": "/",
+  "display": "standalone",
+  "scope": "/",
+  "theme_color": "#0f172a",
+  "background_color": "#0f172a"
+}

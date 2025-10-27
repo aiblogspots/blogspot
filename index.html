@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI Image to Blog Post Generator</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
+    <link rel="manifest" href="/manifest.json" />
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.27.0"
+  }
+}
+</script>
+<style>
+@keyframes gradient-sweep {
+  0% { background-position: -100% 0; }
+  100% { background-position: 100% 0; }
+}
+.animate-gradient-text {
+  background-image: linear-gradient(
+    to left,
+    #9333ea, /* purple */
+    #d946ef, /* fuchsia */
+    #6366f1, /* indigo */
+    #38bdf8, /* sky */
+    #6366f1, /* indigo */
+    #d946ef, /* fuchsia */
+    #9333ea  /* purple */
+  );
+  background-size: 200% auto;
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  animation: gradient-sweep 12s linear infinite;
+}
+</style>
+</head>
+  <body class="bg-slate-900 text-white">
+    <div id="root"></div>
+    <script src="/config.js"></script>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>

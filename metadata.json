@@ -1,0 +1,5 @@
+{
+  "name": "AI Image to Blog Post Generator",
+  "description": "An application that generates a comprehensive 2000-word blog post, complete with a title and subtitle, based on a user-uploaded image.",
+  "requestFramePermissions": []
+}
